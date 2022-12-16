@@ -5,7 +5,7 @@ metadata:
     app: x-travels
   name: x-travels
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     matchLabels:
       app: x-travels
