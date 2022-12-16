@@ -5,7 +5,7 @@ metadata:
     app: x-travels
   name: x-travels
 spec:
-  replicas: 6
+  replicas: 3
   selector:
     matchLabels:
       app: x-travels
@@ -15,5 +15,5 @@ spec:
         app: x-travels
     spec:
       containers:
-      - image: xiejuntao/x-travel:lastest
+      - image: xiejuntao/x-travel:v0
         name: x-travels
