@@ -15,5 +15,5 @@ spec:
         app: x-travels
     spec:
       containers:
-      - image: xiejuntao/x-travel:v0
+      - image: xiejuntao/x-travel:lastest
         name: x-travels
