@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: x-travels
+  name: x-travels
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: x-travels
+  template:
+    metadata:
+      labels:
+        app: x-travels
+    spec:
+      containers:
+      - image: xiejuntao/x-travel:v0
+        name: x-travels
